@@ -32,7 +32,9 @@ public class MidiUtil {
 	 * 入力レシーバ
 	 */
 	private static MidiInputQueue receiver;
-
+	/**
+	 * MIDIメッセージリスト
+	 */
 	private List<MidiMessage> midiMessageList = new ArrayList<>();
 
 	/**
